@@ -1,18 +1,30 @@
-## Getting Started
+# avaliacao_poo_Sarah
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Projeto desenvolvido em Java para demonstrar conceitos de Programação Orientada a Objetos (POO).
 
-## Folder Structure
+## Sobre o Projeto
 
-The workspace contains two folders by default, where:
+#### O sistema representa de forma simples uma loja de roupas, trabalhando com diferentes tipos de peças:
+  ##### ° Peças femininas
+  ##### ° Peças masculinas
+  ##### ° Peças infantis
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Conceitos de POO:
+#### O projeto utiliza:
+   ##### ° Encapsulamento
+   ##### ° Abstração
+   ##### ° Herança
+   ##### ° Polimorfismo
+   ##### ° Interface
+   ##### ° Associação entre classes
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Estrutura 
+#### A classe abstrata Peca representa as características comuns das peças.
+#### As classes PecaFeminina, PecaMasculina e PecaInfantil herdam de Peca.
+#### A interface Desconto define um comportamento relacionado aos descontos das peças.
+#### A classe Principal contém o método main para executar e demonstrar o funcionamento do sistema. 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Tecnologias 
+##### ° Java
+##### ° Programação Orientada a Objetos
+##### ° VSCODE
