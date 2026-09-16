@@ -19,6 +19,13 @@ public abstract class Peca {
         this.quantidade = quantidade;
     }
 
+    public double getValor() {
+        return valor;
+    }
+
+    public double getQuantidade() {
+        return quantidade;
+    }
     
     public abstract double CalcularPrecoFinal();
 
